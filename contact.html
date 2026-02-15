@@ -10,18 +10,56 @@
     <link href="styles.css" rel="stylesheet">
     <title>Hello, world!</title>
   </head>
-  <body>
-    <h1>Hello, world!</h1>
+<body class="bg-dark text-white">
 
-    <!-- Optional JavaScript; choose one of the two! -->
+  <!-- Mobile Top Navbar (ONLY visible below md) -->
+  <nav class="navbar navbar-dark bg-dark d-md-none fixed-top">
+    <div class="container-fluid">
+      <button class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#sidebar-menu"
+              aria-controls="sidebar-menu"
+              aria-expanded="false"
+              aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </nav>
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+   <!-- Sidebar -->
+  <div class="main-wrapper mx-auto">
+    <div class="row g-0">
+      <nav class="col-md-3 col-lg-2 background-gold sidebar text-dark collapse d-md-block" id="sidebar-menu">
+        <div class="vh-100 pt-4 position-sticky">
+          <ul class="nav nav-pills flex-column">
+            <li class="nav-item px-3 pb-3 pt-5">HOME</li>
+            <li class="nav-item px-3 py-3">ABOUT</li>
+            <li class="nav-item px-3 py-3">CONTACT</li>
+            <li class="nav-item px-3 py-3">MUSIC</li>
+          </ul>
+        </div>
+      </nav>
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-    -->
+      <!-- Main Content -->
+      <main class="col-md-9 col-lg-10 p-4 bg-dark">
+        <h1>Main Content</h1>
+        <p>This area scrolls independently.</p>
+      </main>
+
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+
   </body>
 </html>
+ 

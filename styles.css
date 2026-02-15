@@ -1,0 +1,25 @@
+.background-gold {
+    background-color: rgba(179, 130, 40, 0.9)
+}
+
+.main-wrapper {
+  width: 80%;
+  max-width: 1400px;
+  background: black;
+  min-height: 100vh;
+  box-shadow: 0 0 40px rgba(0,0,0,0.5);
+}
+
+main {
+    padding-top: 56px;
+}
+
+.top-space {
+    padding-top: 100px;
+}
+
+@media (max-width: 767.98px) {
+  body {
+    padding-top: 56px;
+  }
+}
