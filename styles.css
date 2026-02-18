@@ -33,10 +33,6 @@
 
 }
 
-h5 {
-    text-align: center;
-}
-
 .hero-section {
   width: 100%;
 }
@@ -148,4 +144,30 @@ h5 {
 
 #player {
   padding: 12px;
+}
+
+.social-style a {
+    font-size: 2em; color: silver !important;
+}
+
+.footer-text {
+    color: rgba(179, 130, 40, 0.9);
+    font-family: 'Pirata One', system-ui;
+    font-size: 2.5vw
+}
+
+.section-wrapper-box {
+    padding: 5px;
+}
+
+.main-box {
+    border: solid 3px rgba(179, 130, 40, 0.9)
+}
+
+.main-title-caption {
+    color: rgba(179, 130, 40, 0.9);
+    font-family: 'Pirata One', system-ui;
+    font-size: 4vw;
+    text-align: center;
+    padding: 5px;
 }
