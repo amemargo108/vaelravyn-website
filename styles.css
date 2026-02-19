@@ -167,7 +167,12 @@
 .main-title-caption {
     color: rgba(179, 130, 40, 0.9);
     font-family: 'Pirata One', system-ui;
-    font-size: 4vw;
+    font-size: 4vh;
     text-align: center;
     padding: 5px;
 }
+
+.quote-text {
+    font-style: italic
+}
+
