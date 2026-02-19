@@ -167,7 +167,7 @@
 .main-title-caption {
     color: rgba(179, 130, 40, 0.9);
     font-family: 'Pirata One', system-ui;
-    font-size: 4vh;
+    font-size: 6vh;
     text-align: center;
     padding: 5px;
 }
@@ -176,3 +176,18 @@
     font-style: italic
 }
 
+nav a:hover {
+  color: silver;
+}
+
+.song-text {
+  padding-top: 7px;
+  font-family: 'Pirata One', system-ui;
+  color: silver;
+  font-size: 3vw;
+}
+
+.show-data {
+  text-align: center;
+  color: silver;
+}
